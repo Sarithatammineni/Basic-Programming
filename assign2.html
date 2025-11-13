@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masai Investors</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    #header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    #header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    #header p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+  
+    .investors {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+  
+    .card h3 {
+      font-size: 1.2em;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+
+    .investors img {
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <h1>Masai Investors</h1>
+      <p>Meet our investors who believe in our mission</p>
+    </div>
+
+    <div class="investors">
+    
+      <div class="card">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/nandan_nilekani_4d2adf9c93.png" alt="Nandan Nilekani">
+        <h3>Vijay Shekar Sharma</h3>
+        <p>Founder & CEO, Paytm</p>
+      </div>
+
+    
+      <div class="card">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vijay_shekhar_sharma_49a6e344cb.png" alt="Vijay Shekhar Sharma">
+        <h3>Kunal Shah</h3>
+        <p>Founder ,CRED</p>
+      </div>
+
+      
+      <div class="card">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/kunal_shah_4d78884b2e.png" alt="Kunal Shah">
+        <h3>Amrish Rau</h3>
+        <p>CEO,Pine Labs</p>
+      </div>
+
+      
+      <div class="card">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amit_somani_1b5274ee48.png" alt="Amit Somani">
+        <h3>Sampad Swain</h3>
+        <p>Co-founder & CEO,instamojo</p>
+      </div>
+
+    
+      <div class="card">
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/suhas_joshi_c47f8ac15c.png" alt="Suhas Joshi">
+        <h3>Ankush Sachdeva</h3>
+        <p>Co-founder & CEO,sharechat</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
