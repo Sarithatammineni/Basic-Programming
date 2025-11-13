@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f3f4f6;
+    }
+
+    .product-container {
+      width: 500px;
+      height: 600px;
+      margin: 10px;
+      padding: 30px;
+      border: 3px solid grey;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-container:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .product-container img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .product-container h3 {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #222;
+      text-align: center;
+    }
+
+    .product-container p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+      text-align: center;
+    }
+
+    .product-container button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .product-container button:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-container">
+    <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/n/v/o/-original-imagr4nfk4bq6b5v.jpeg?q=70" alt="Samsung Galaxy Watch6 LTE">
+    <h3>SAMSUNG Galaxy Watch6 LTE (Graphite Strap, 44mm)</h3>
+    <p>Track your health and fitness with precision, featuring LTE connectivity, heart rate monitor, and modern design.</p>
+    <button>Buy Now</button>
+  </div>
+
+</body>
+</html>
